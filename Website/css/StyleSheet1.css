@@ -3,7 +3,8 @@
     font-size:200%;
     font-family:Cambria;
 }
- p{
+ p
+ {
      color:black;
      font-size:105%;
      font-family:'Lucida Bright';
@@ -18,3 +19,36 @@ ul li {
     font-size: 105%;
     font-family: 'Lucida Bright';
 }
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 3px;
+}
+
+.row::after {
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+label {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#submit_button {
+    background-color: maroon;
+    height: 30px;
+    width: 20%;
+    color: white;
+    font-weight: bold;
+}
+
+input, textarea {
+    background-color:white;
+    color: black;
+    width: 250px;
+    margin-bottom: 10px;
+    
+}
+
